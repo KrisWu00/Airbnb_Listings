@@ -53,7 +53,7 @@ function MainModule(listingsID = "#listings") {
           </div>
         </div>
       </div>
-      <h3>Amenities</h3>
+      <h4>Amenities</h4>
       <div class="amenities">
         ${amenitiesHTML}
       </div>
@@ -65,7 +65,7 @@ function MainModule(listingsID = "#listings") {
 <!-- /.listing -->`;
   }
 
-  
+
 
   function redraw(listings) {
     listingsElement.innerHTML = "";
